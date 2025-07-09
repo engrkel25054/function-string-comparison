@@ -9,8 +9,6 @@ other, and False otherwise. Hint: you might want to use the built-in str operato
 def is_in(s1, s2):
     if s1 in s2:
         return True
-    elif s2 in s1:
-        return True
     return False
 
 def test_is_in(s1_tuple, s2_tuple):
